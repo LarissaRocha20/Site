@@ -1,0 +1,95 @@
+
+body{
+    background-color: #976aff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.row > div{
+    border: solid 2px #976aff;
+    margin-top: 5px;
+}
+*{
+    margin: 0px center !important;
+    box-sizing: border-box !important;
+    padding: 0px !important;
+}
+
+.carousel-item > img{
+    height: 90vh;
+}
+
+.carousel-caption > h5,p {
+    color: purple;
+}
+
+.row > div[class*="col"]{
+    border: solid 2px #976aff;
+    text-align: center;
+}
+
+.col{
+
+    overflow: hidden;
+    }
+    .zoom {
+    max-width: 100%;
+    transition: all 0.3s;
+    }
+    .zoom:hover {
+      transform: scale(1.1);
+    }
+
+footer{
+    background-color: #976aff;
+}
+
+#coloração{
+    background-color:  #e5daff ;
+}
+
+.modal-body{
+    background-color:  #e5daff;
+    text-align: left;
+}
+
+.modal-content{
+    background-color: #976aff;
+}
+
+.table{
+    border: solid 2px #c0a8f9;
+    background-color: #976aff;
+}
+
+.card{
+    background-color:#e5daff;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #976aff;
+    color: #e5daff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  #myBtn:hover {
+    font-size: 34px;
+  }
